@@ -1,9 +1,10 @@
 import React from 'react'
+import {Header} from 'semantic-ui-react';
 
 export default function Title(props) {
 	return (
 		<div>
-			<h2>{props.nasaData.title}</h2>
+			<Header as="h2">{props.nasaData.title}</Header>
 		</div>
 	)
 }

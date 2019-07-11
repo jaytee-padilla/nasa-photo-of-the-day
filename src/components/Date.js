@@ -1,9 +1,10 @@
 import React from 'react'
+import {Header} from 'semantic-ui-react';
 
 export default function Date(props) {
 	return (
 		<div>
-			<h3>{props.nasaData.date}</h3>
+			<Header as="h3">{props.nasaData.date}</Header>
 		</div>
 	)
 }
