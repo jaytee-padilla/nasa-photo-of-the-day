@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="ui divided very relaxed grid"
+    style={
+      Object {
+        "height": "100vh",
+        "margin": "0",
+      }
+    }
+  >
+    <div
+      className="middle aligned row"
+    >
+      <div
+        className="eight wide column"
+      >
+        <div
+          className="stretched row"
+        >
+          <h1
+            className="ui header"
+          >
+            Nasa Picture/Video of The Day
+          </h1>
+          <div>
+            <h3
+              className="ui header"
+            />
+          </div>
+          <div>
+            <h2
+              className="ui header"
+            />
+          </div>
+          <div>
+            <p />
+          </div>
+        </div>
+      </div>
+      <div
+        className="eight wide column"
+      >
+        <div
+          className="media-container"
+        >
+          <img
+            className="ui massive image"
+            src="https://api.nasa.gov/images/apod.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
